@@ -403,7 +403,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=520714082970632232&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add Venus Bot ✅
 Server name: __${guild.name}__
@@ -417,7 +417,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=520714082970632232&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot')
   .setDescription(`**
    Server kicked Venus Bot :cry:
 Server name: __${guild.name}__
@@ -760,7 +760,7 @@ client.on('message', message => {
             .setAuthor(client.user.username,client.user.avatarURL)
             .setThumbnail(client.user.avatarURL)
             .setColor('RANDOM')
-            .setTitle('``INFO Venus Bot`` ')
+            .setTitle('``INFO Verus Bot`` ')
             .addField('``My Ping``' , [`${Date.now() - message.createdTimestamp}` + 'MS'], true)
             .addField('``RAM Usage``', `[${(process.memoryUsage().rss / 1048576).toFixed()}MB]`, true)
             .addField('``servers``', [client.guilds.size], true)
@@ -770,7 +770,7 @@ client.on('message', message => {
             .addField('``My ID``' , `[ ${client.user.id} ]` , true)
 			      .addField('``My Prefix``' , `[ - ]` , true)
 			      .addField('``My Language``' , `[ Java Script ]` , true)
-			      .setFooter('By | ImMohamed_')
+			      .setFooter('By | VeruxOWNER')
     })
 }
 });
@@ -1920,7 +1920,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`➡ Click Here `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
@@ -1932,7 +1932,7 @@ client.on('message', message => {
         let embed = new Discord.RichEmbed()
         .setAuthor(` ${message.author.username} `, message.author.avatarURL)      
         .setTitle(`➡ Click Here `)
-        .setURL(`https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot`)
+        .setURL(`https://discordapp.com/oauth2/authorize?client_id=576931152439279626&permissions=8&scope=bot`)
         .setThumbnail(" https://cdn.discordapp.com/avatars/377904849783750667/6c76e412f18c142dfd711d05fb363869.png?size=2048")        
      message.channel.sendEmbed(embed);
        }
